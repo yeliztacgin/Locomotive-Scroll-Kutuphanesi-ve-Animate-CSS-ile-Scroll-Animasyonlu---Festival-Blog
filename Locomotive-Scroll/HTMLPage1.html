@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <link rel="stylesheet" href="StyleSheet2.css" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <div class="container">
+        <p class="animate__animated animate__zoomInDown">FESTİVAL BLOG</p>
+        <h1 class="animate__animated animate__zoomOutDown animate__slow">İşte 2024'ün tüm Festivalleri</h1>
+    </div>
+    <br />
+    <br />
+    <div data-scroll-container>
+
+        <div class="section right">
+            <div class="content">
+                <div class="content-title">2024’e Ruhunu Verecek Olan Müzik Festivalleri.</div>
+                <div class="content-desc">Müziğin ritmine kendimizi kaptıracağımız günler yaklaşıyor! Havaların ısınmasıyla beraber Avrupa ve dünyadaki en iyi müzik festivalleri de sahnelerini yavaştan kurmaya başlıyor. Ucuz biletinizi almak için acele edin. 2024’ün ruhu bu müzik festivallerinde saklı..</div>
+            </div>
+            <img class="left" data-scroll data-scroll-speed="3" src="https://images.pexels.com/photos/1186116/pexels-photo-1186116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" />
+            <img class="left second" data-scroll data-scroll-speed="6" src="https://images.pexels.com/photos/2311713/pexels-photo-2311713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" />
+        </div>
+        <div class="section left">
+            <div class="content">
+                <div class="content-title">I am Global Festival, İspanya.</div>
+                <div class="content-desc">4 Haziran’da, İspanya’da dev bir festival kapılarını açıyor olacak. 4 gece boyunca 3 sahnesiyle, 12000 dinleyici ve 200 gösteriye ev sahipliği yapacak olan festival, bu sene “Avrupa’nın en büyük su parkı festivali” olması açısından da bir ilke imza atıyor. Illa Fantasia’nın devasa su parkında gerçekleşecek olan festivalde eğlence gece-gündüz hiç hız kesmeden devam edecek. Tarihler ise 4-8 Temmuz. Yerinizi şimdiden ayırın..</div>
+            </div>
+            <img class="right" data-scroll data-scroll-speed="3" src="https://images.pexels.com/photos/2170387/pexels-photo-2170387.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" />
+            <img class="right second" data-scroll data-scroll-speed="5" src="https://images.pexels.com/photos/757828/pexels-photo-757828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" />
+        </div>
+        <div class="section right">
+            <div class="content">
+                <div class="content-title">Glastonbury Festival, İngiltere.</div>
+                <div class="content-desc">İngiltere’nin efsanevi festivali Glastonbury… 1970’den beri devam eden festival, her sene olduğu gibi bu yıl da unutulmaz performanslar için hazırlıklarını sürdürüyor. 24-28 Haziran tarihlerinde düzenlenecek festivalin ilk ismi ise Lionel Richie. Takipte kalın.</div>
+            </div>
+            <img class="left" data-scroll data-scroll-speed="3" src="https://images.pexels.com/photos/2301285/pexels-photo-2301285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" />
+            <img class="left second" data-scroll data-scroll-speed="6" src="https://images.pexels.com/photos/1405422/pexels-photo-1405422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" />
+        </div>
+        <div class="section left">
+            <div class="content">
+                <div class="content-title">Northside Festival, Danimarka</div>
+                <div class="content-desc">12 Haziran’da başlayan festival, Aarhus’ta 3 gün boyunca devam edecek. Sürdürülebilirlik ve yenilik temalı olan festival, alternatif bir müzik keyfi arayışında olanlar için ideal..</div>
+            </div>
+            <img class="right" data-scroll data-scroll-speed="3" src="https://images.pexels.com/photos/13347353/pexels-photo-13347353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" />
+        </div>
+    </div>
+
+    <script src="Script1.js"></script>
+    <script>
+        var scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+        });
+    </script>
+
+</body>
+</html>
